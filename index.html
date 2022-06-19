@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center pt-5 bg-light m-0">Welcome to Blog Home!</h1>
+    <p class="text-center pb-5 bg-light">A Bootstrap layout for you next blog homepage</p>
+    <div class="row">
+      <div class="col-8">
+        <div class="card" style="width: 100%;">
+          <img src="./img/card-image-one.jpg" class="card-img-top" alt="movies pivture">
+          <div class="card-body">
+            <span>January 1, 2022</span>
+            <h3 class="card-title">Featured Post Title</h3>
+            <p class="card-text">Kane conceived Batman in early 1939 to capitalize on the popularity of DC's Superman; although Kane frequently claimed sole creation credit, Finger substantially developed the concept from a generic superhero!</p>
+            <a href="#" class="btn btn-primary">Read more →</a>
+          </div>
+        </div>
+        <div class="d-flex pt-3">
+        <div class="card" style="width: 100%;">
+          <img src="./img/card-image-second.jpg" class="card-img-top" alt="cat picture">
+          <div class="card-body">
+            <span>January 1, 2022</span>
+            <h5 class="card-title">Post title</h5>
+            <p class="card-text">The cat (Felis catus) is a domestic species of small carnivorous mammal.</p>
+            <a href="#" class="btn btn-primary">Read more →</a>
+          </div>
+        </div>
+        <div class="card mx-3" style="width: 100%;">
+          <img src="./img/card-image-third.jpg" class="card-img-top" alt="chess picture">
+          <div class="card-body">
+            <span>January 1, 2022</span>
+            <h5 class="card-title">Post title</h5>
+            <p class="card-text">Chess is a board game played between two players. It is sometimes called Western chess</p>
+            <a href="#" class="btn btn-primary">Read more →</a>
+          </div>
+        </div>
+        </div>
+  
+        <nav>
+          <ul class="pagination pt-3 offset-4">
+            <li class="page-item">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Older</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="card-header">
+            Search
+          </div>
+          <div class="card-body">
+              <form action="https://echo.htmlacademy.ru/" method="post">
+              <div class="d-flex">
+                <input type="text" class="form-control" name="User name" placeholder="Enter search team... " aria-label="Recipient's username">
+              <button type="submit" class="btn btn-primary border-0">Go!</button>
+            </div>
+              </form>
+          </div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Blogging
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>"Blogger" redirects here. For the Google service, see Blogger (service). For other uses, see Blog (disambiguation).</strong> A blog (a truncation of "weblog")[1] is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order <code>chronological order</code>, so that the most recent post appears first.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Instagram
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>"Insta" redirects here. For the food delivery service, see Instacart</strong> Instagram[a] is an American photo and video sharing social networking service founded in 2010 by Kevin Systrom and Mike Krieger, and later acquired by Facebook Inc. The app allows users to upload media that can be edited with filters and organized by hashtags and geographical <code>taggin</code>, Posts can be shared
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Facebook
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Not to be confused with Face book or Factbook.</strong> Facebook is an American online social media and social networking service owned by Meta Platforms. Founded in 2004 by <code>Mark Zuckerberg </code> with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hugheshough
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
